@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — Comfort Food</title>
+  <meta name="description" content="Ответы на частые вопросы: доставка, подписка, пауза, хранение, оплата." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Comfort Food</span>
+      </a>
+      <nav class="navlinks">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="how.html">Как работает</a>
+        <a data-nav href="menu.html">Меню</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html">Контакты</a>
+      </nav>
+      <a class="cta" href="contact.html">Оставить заявку</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">Вопросы • ответы</div>
+  <h1>FAQ</h1>
+  <p class="lead">Коротко и по делу. Если вашего вопроса нет — напишите, добавим.</p>
+
+  <section class="card faq">
+    <details>
+      <summary>Это доставка готовых блюд или заготовок?</summary>
+      <p>Это система: часть может быть готовой едой, часть — заготовки длительного хранения для предсказуемости и удобства. Формат зависит от ритма и целей.</p>
+    </details>
+
+    <details>
+      <summary>Можно ли выбирать блюда?</summary>
+      <p>Нет. Это ключевая идея Comfort Food: убрать выбор. Мы учитываем ограничения и цель, но меню не согласовываем каждый день.</p>
+    </details>
+
+    <details>
+      <summary>На сколько дней подписка?</summary>
+      <p>Обычно 1–4 недели. Можно начать с 1 недели, чтобы понять формат, и дальше перейти на месяц.</p>
+    </details>
+
+    <details>
+      <summary>Можно ли поставить на паузу?</summary>
+      <p>Да, по правилам: предупредить заранее (например за 48 часов). Точные условия фиксируем при старте.</p>
+    </details>
+
+    <details>
+      <summary>Есть ли доставка по всем районам Еревана?</summary>
+      <p>Доставляем по зонам и в окна. Напишите район — скажем точно.</p>
+    </details>
+
+    <details>
+      <summary>Как устроена оплата?</summary>
+      <p>Оплата за неделю/месяц вперёд. Это позволяет держать ритм производства и качество без “срывов”.</p>
+    </details>
+
+    <details>
+      <summary>Можно ли похудеть на Comfort Food?</summary>
+      <p>Можно, если выбрать формат и ритм под дефицит. Мы не обещаем “минус Х кг”, мы даём систему, которая помогает держать дисциплину.</p>
+    </details>
+
+    <details>
+      <summary>Учитываете ли калорийность и БЖУ?</summary>
+      <p>По запросу — да, в рамках формата (не в режиме “каждый грамм под ежедневный отчёт”).</p>
+    </details>
+
+    <details>
+      <summary>Как хранить?</summary>
+      <p>Контейнеры рассчитаны на хранение в холодильнике. Рекомендации по срокам и разогреву дадим вместе с первой доставкой.</p>
+    </details>
+
+    <details>
+      <summary>Можно ли попробовать без подписки?</summary>
+      <p>Если есть окно — можно тест-неделю. Это самый честный способ понять подходит ли система.</p>
+    </details>
+  </section>
+
+  <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+    <a class="button primary" href="contact.html">Оставить заявку</a>
+    <a class="button" href="menu.html">Посмотреть форматы</a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Comfort Food</div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

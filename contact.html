@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакты — Comfort Food</title>
+  <meta name="description" content="Оставить заявку на Comfort Food: контакты, районы доставки, быстрые вопросы." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Comfort Food</span>
+      </a>
+      <nav class="navlinks">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="how.html">Как работает</a>
+        <a data-nav href="menu.html">Меню</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html">Контакты</a>
+      </nav>
+      <a class="cta" href="contact.html">Оставить заявку</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">Связь • заявки</div>
+  <h1>Оставить заявку</h1>
+  <p class="lead">
+    Нам нужно всего 4 пункта: район, ритм (сколько дней в неделю), цель и ограничения.
+    Отвечаем коротко и по делу.
+  </p>
+
+  <section class="grid">
+    <div class="card half">
+      <h2>Быстро в мессенджер</h2>
+      <p>Вставьте ваши контакты ниже (замените на реальные):</p>
+      <ul class="list">
+        <li>Telegram: <a href="#" onclick="copyText('@comfortfood'); return false;">@comfortfood</a> <span class="small">(нажмите, чтобы скопировать)</span></li>
+        <li>Instagram: <a href="#" onclick="copyText('@comfort.food'); return false;">@comfort.food</a></li>
+      </ul>
+
+      <div style="margin-top:14px;">
+        <a class="button primary" href="mailto:hello@comfortfood.am?subject=Comfort%20Food%20—%20заявка&body=Район:%0D%0AРитм%20(дней%20в%20неделю):%0D%0AЦель:%0D%0AОграничения:%0D%0AКонтакт:%0D%0A">Отправить email-заявку</a>
+        <div class="small" style="margin-top:8px;">
+          Замените email на ваш реальный (hello@...) в коде страницы.
+        </div>
+      </div>
+    </div>
+
+    <div class="card half">
+      <h2>Бесплатная форма (рекомендуем)</h2>
+      <p>
+        Самый простой вариант без разработки — <b>Google Form</b>.
+        Вы создаёте форму, копируете ссылку и вставляете её сюда.
+      </p>
+      <ol class="list">
+        <li>Создайте Google Form “Заявка Comfort Food”</li>
+        <li>Добавьте поля: Район, Ритм, Цель, Ограничения, Телефон/Telegram</li>
+        <li>Скопируйте ссылку и вставьте в кнопку ниже</li>
+      </ol>
+
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="button primary" href="https://forms.gle/ВАША_ССЫЛКА" target="_blank" rel="noreferrer">Открыть форму</a>
+        <a class="button" href="#" onclick="copyText('Район: ...\nРитм: ...\nЦель: ...\nОграничения: ...\nКонтакт: ...'); return false;">Скопировать шаблон сообщения</a>
+      </div>
+      <p class="small" style="margin-top:10px;">
+        Вставьте реальную ссылку Google Form вместо “ВАША_ССЫЛКА”.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Зоны и окна доставки</h2>
+      <p class="small">Заполните под себя. Пока оставил аккуратные заглушки:</p>
+      <ul class="list">
+        <li>Ереван: по районам, в фиксированные окна</li>
+        <li>Коммуникация: минимум сообщений, всё по правилам</li>
+        <li>Ограниченная подписка: до 100 мест</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Comfort Food</div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

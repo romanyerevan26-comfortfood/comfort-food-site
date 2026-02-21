@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Меню и форматы — Comfort Food</title>
+  <meta name="description" content="Форматы Comfort Food: базовый, баланс, акцент на белок. Примеры недель и ограничения." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Comfort Food</span>
+      </a>
+      <nav class="navlinks">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="how.html">Как работает</a>
+        <a data-nav href="menu.html">Меню</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html">Контакты</a>
+      </nav>
+      <a class="cta" href="contact.html">Оставить заявку</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">Форматы • примеры • ограничения</div>
+  <h1>Меню без выбора — но с логикой</h1>
+  <p class="lead">
+    Мы не публикуем бесконечный список блюд. Мы работаем форматами — это удобнее, стабильнее и честнее.
+    Ниже примеры. Конкретику подстроим под ваши ограничения.
+  </p>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Форматы подписки</h2>
+      <div class="pricing">
+        <div class="plan">
+          <div class="name">База</div>
+          <div class="desc">Для стабильного питания без перегибов. Ровный день, спокойная еда.</div>
+          <div class="meta">
+            <span class="chip">3–6 дней/нед</span>
+            <span class="chip">сбалансировано</span>
+            <span class="chip">без “срывов”</span>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="name">Баланс</div>
+          <div class="desc">Больше структуры: белок/клетчатка/углеводы по ритму. Хорошо для дисциплины.</div>
+          <div class="meta">
+            <span class="chip">ритм</span>
+            <span class="chip">контроль порций</span>
+            <span class="chip">удобно в работе</span>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="name">Акцент на белок</div>
+          <div class="desc">Для тренировок и сохранения мышц. Без фанатизма, но с приоритетом белка.</div>
+          <div class="meta">
+            <span class="chip">больше белка</span>
+            <span class="chip">простые гарниры</span>
+            <span class="chip">восстановление</span>
+          </div>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">
+        Цены здесь намеренно не указаны: они зависят от ритма (дни/неделя) и ограничений.
+        Хотите — отправим один короткий прайс в ответ на заявку.
+      </p>
+    </div>
+
+    <div class="card half">
+      <h2>Пример недели (как выглядит)</h2>
+      <ul class="list">
+        <li>Завтрак: простая база + фрукт/йогурт/яйца (по формату)</li>
+        <li>Обед: белок + овощи + гарнир (в нужном объёме)</li>
+        <li>Ужин: лёгкий белок/овощи или суп/рагу</li>
+        <li>Перекусы: по необходимости (опционально)</li>
+      </ul>
+      <p class="small">Это пример структуры, а не обещание конкретных блюд.</p>
+    </div>
+
+    <div class="card half">
+      <h2>Ограничения и аллергены</h2>
+      <ul class="list">
+        <li>Учитываем: без свинины, без лактозы, без глютена (по возможности), без орехов</li>
+        <li>Не делаем: “полный конструктор из 30 исключений”</li>
+        <li>Всегда предупреждаем про следы аллергенов</li>
+      </ul>
+      <p class="small">Если риск высокий — лучше обсудить до оплаты.</p>
+    </div>
+
+    <div class="card">
+      <h2>Дальше</h2>
+      <p>Если вы хотите “минимум общения” — просто оставьте заявку. Мы уточним 3–4 пункта и предложим формат.</p>
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="button primary" href="contact.html">Оставить заявку</a>
+        <a class="button" href="faq.html">FAQ</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Comfort Food</div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

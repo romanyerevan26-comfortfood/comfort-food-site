@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Как работает — Comfort Food</title>
+  <meta name="description" content="Модель Comfort Food: подписка, ритм, правила и ограничения. Еда без выбора." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Comfort Food</span>
+      </a>
+      <nav class="navlinks">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="how.html">Как работает</a>
+        <a data-nav href="menu.html">Меню</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html">Контакты</a>
+      </nav>
+      <a class="cta" href="contact.html">Оставить заявку</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="kicker">Модель • правила • ритм</div>
+  <h1>Система вместо выбора</h1>
+  <p class="lead">
+    Вы не выбираете блюда. Вы выбираете только <b>формат</b> (цель/ритм/ограничения),
+    а дальше работает система: планирование → готовка → доставка.
+  </p>
+
+  <section class="grid">
+    <div class="card half">
+      <h2>Что фиксируем на старте</h2>
+      <ul class="list">
+        <li>Район и окно доставки</li>
+        <li>Ритм: 3/5/6 дней в неделю</li>
+        <li>Цель: “просто стабильно”, “легче”, “больше белка”</li>
+        <li>Ограничения: без свинины/без лактозы/без орехов и т.д.</li>
+      </ul>
+    </div>
+
+    <div class="card half">
+      <h2>Что вы НЕ делаете</h2>
+      <ul class="list">
+        <li>Не листаете меню</li>
+        <li>Не переписываетесь каждый день</li>
+        <li>Не считаете калории вручную (если не хотите)</li>
+        <li>Не придумываете “что бы поесть”</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Кому подходит</h2>
+      <div class="split">
+        <div class="card" style="margin:0; padding:16px">
+          <h3>Подходит</h3>
+          <ul class="list">
+            <li>Если устали от выбора и хаоса</li>
+            <li>Если хочется ровного ритма питания</li>
+            <li>Если важны тишина и предсказуемость</li>
+          </ul>
+        </div>
+        <div class="card" style="margin:0; padding:16px">
+          <h3>Не подойдёт</h3>
+          <ul class="list">
+            <li>Если вам нужен “конструктор блюд”</li>
+            <li>Если вы часто отменяете/переносите</li>
+            <li>Если ожидаете ресторанные “сюрпризы” каждый день</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Следующий шаг</h2>
+      <p>Посмотрите форматы питания. Если хотите — оставьте заявку, мы ответим коротко и по делу.</p>
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="button primary" href="menu.html">Форматы и примеры</a>
+        <a class="button" href="contact.html">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Comfort Food</div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

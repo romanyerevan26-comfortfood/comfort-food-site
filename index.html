@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comfort Food — доставка еды без выбора</title>
+  <meta name="description" content="Comfort Food — доставка еды без выбора. Всё решает система: меню, баланс, ритм. Вы просто живёте." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Comfort Food</span>
+      </a>
+
+      <nav class="navlinks">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="how.html">Как работает</a>
+        <a data-nav href="menu.html">Меню</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html">Контакты</a>
+      </nav>
+
+      <a class="cta" href="contact.html">Оставить заявку</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Ереван • подписка • 100 мест максимум</div>
+    <h1>Доставка еды без выбора.<br/>Тишина в голове — каждый день.</h1>
+    <p class="lead">
+      Comfort Food — это система питания для людей, которым нужно простое и стабильное решение.
+      Мы сами составляем меню, готовим, доставляем. Вы не листаете варианты. Вы просто получаете еду.
+    </p>
+
+    <div class="hero-actions">
+      <a class="button primary" href="contact.html">Оставить заявку</a>
+      <a class="button" href="how.html">Понять модель</a>
+    </div>
+
+    <div class="badges">
+      <span class="badge">Без меню “на выбор”</span>
+      <span class="badge">Стабильный ритм и порции</span>
+      <span class="badge">Предсказуемый вкус</span>
+      <span class="badge">Ограниченная подписка</span>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card third">
+      <h2>Никаких решений</h2>
+      <p>Выбор — это шум. Мы убираем его и оставляем ритм: еда приходит сама.</p>
+    </div>
+    <div class="card third">
+      <h2>Система важнее “рецепта”</h2>
+      <p>Важно не впечатлить один раз, а удержать стабильность 30–90 дней.</p>
+    </div>
+    <div class="card third">
+      <h2>Маленький формат</h2>
+      <p>Мы сознательно ограничиваем количество подписчиков, чтобы держать качество.</p>
+    </div>
+
+    <div class="card">
+      <div class="split">
+        <div>
+          <h2>Как это работает</h2>
+          <p>Просто, без лишних касаний. Мы делаем работу вместо вас.</p>
+
+          <div class="steps">
+            <div class="step">
+              <div class="n">1</div>
+              <div>
+                <div class="t">Заявка</div>
+                <div class="d">Коротко: район, ритм, ограничения по продуктам.</div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">2</div>
+              <div>
+                <div class="t">Подбор формата</div>
+                <div class="d">Мы выбираем подходящий режим питания под вашу цель.</div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">3</div>
+              <div>
+                <div class="t">Готовка</div>
+                <div class="d">Заготовки длительного хранения + свежие элементы по ритму.</div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">4</div>
+              <div>
+                <div class="t">Доставка</div>
+                <div class="d">В назначенные окна. Без звонков и “уточните адрес ещё раз”.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin:0; padding:16px">
+          <h3>Что вы получаете</h3>
+          <ul class="list">
+            <li>Еду, которая “держит” день, а не ломает его.</li>
+            <li>Стабильность вкуса и состава.</li>
+            <li>Минимум общения: всё заранее и по правилам.</li>
+            <li>Понятные контейнеры и хранение.</li>
+          </ul>
+          <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="button primary" href="menu.html">Посмотреть форматы</a>
+            <a class="button" href="faq.html">Снять вопросы</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+      <div>© <span id="y"></span> Comfort Food • Ереван</div>
+      <div class="small">Формулировки и цены можно обновлять без программистов — просто правкой текста в файлах.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
